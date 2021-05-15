@@ -11,6 +11,7 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(geometry_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
+        "msg/BirdEyeParam.msg"
         "msg/ExtrinsicCalib.msg"
         "msg/RCMode.msg"
         "msg/Spatz.msg"
