@@ -1,3 +1,5 @@
+std_msgs/Header header
+
 # Size of the BirdEye image in px
 int32 height
 int32 width
