@@ -1,6 +1,4 @@
-#builtin_interfaces/Time time
-
-float64 t
+builtin_interfaces/Time time
 
 geometry_msgs/Pose pose
 geometry_msgs/Twist velocity
