@@ -19,6 +19,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
         "msg/RCMode.msg"
         "msg/IntersectionOut.msg"
         "msg/Spatz.msg"
+        "msg/Trajectory.msg"
+        "msg/TrajectoryState.msg"
         "msg/ControlSetpoint.msg"
         DEPENDENCIES geometry_msgs
         )
