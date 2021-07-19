@@ -1,3 +1,5 @@
+std_msgs/Header header
+
 float64 t # Timestamp provided by simulator/hardware
 geometry_msgs/Vector3 pose # x, y, psi (yaw angle in rad)
 geometry_msgs/Vector3 velocity # x, y velocity in global coordinates
