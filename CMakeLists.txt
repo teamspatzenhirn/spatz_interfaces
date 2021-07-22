@@ -12,16 +12,17 @@ find_package(geometry_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
         "msg/BirdEyeParam.msg"
+        "msg/ControlSetpoint.msg"
         "msg/ExtrinsicCalib.msg"
+        "msg/IntersectionOut.msg"
         "msg/Lane.msg"
         "msg/LaneOption.msg"
         "msg/LanePoint.msg"
+        "msg/Lights.msg"
         "msg/RCMode.msg"
-        "msg/IntersectionOut.msg"
         "msg/Spatz.msg"
         "msg/Trajectory.msg"
         "msg/TrajectoryState.msg"
-        "msg/ControlSetpoint.msg"
         DEPENDENCIES geometry_msgs
         )
 
