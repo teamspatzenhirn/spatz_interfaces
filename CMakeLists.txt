@@ -18,7 +18,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
         "msg/Lane.msg"
         "msg/LaneOption.msg"
         "msg/LanePoint.msg"
-        "msg/Lights.msg"
         "msg/RCMode.msg"
         "msg/Spatz.msg"
         "msg/Trajectory.msg"
