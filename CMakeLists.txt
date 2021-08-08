@@ -14,6 +14,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
         "msg/BirdEyeParam.msg"
         "msg/ControlSetpoint.msg"
         "msg/ExtrinsicCalib.msg"
+        "msg/HardwareIn.msg"
         "msg/IntersectionOut.msg"
         "msg/Lane.msg"
         "msg/LaneOption.msg"
