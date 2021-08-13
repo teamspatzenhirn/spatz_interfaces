@@ -7,10 +7,9 @@ geometry_msgs/Vector3 acceleration # acceleration (in vehicle coordinates) witho
 float64 d_psi # angular velocity
 
 # Sensors
-float64 laser
+float64 laser_front
 float64 steer_angle # estimated steering angle of the front axle in rad (left is positive)
 
-bool side_sensor_front
-bool side_sensor_rear
+bool light_switch_rear
 
 float64 integrated_distance
