@@ -5,7 +5,7 @@
     <version>0.0.0</version>
     <description>Custom ROS2 message descriptions of Team Spatzenhirn</description>
     <maintainer email="team-spatzenhirn@uni-ulm.de">Team Spatzenhirn</maintainer>
-    <license>TODO: License declaration</license>
+    <license>GPL-3.0-only</license>
 
     <buildtool_depend>ament_cmake</buildtool_depend>
 
