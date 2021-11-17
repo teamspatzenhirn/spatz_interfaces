@@ -24,6 +24,18 @@ rosidl_generate_interfaces(${PROJECT_NAME}
         "msg/Spatz.msg"
         "msg/Trajectory.msg"
         "msg/TrajectoryState.msg"
+        "msg/DetectionInterface/Interfaces/Classification.msg"
+        "msg/DetectionInterface/Interfaces/Detection.msg"
+        "msg/DetectionInterface/Interfaces/Expansion.msg"
+        "msg/DetectionInterface/Interfaces/Locatable.msg"
+        "msg/DetectionInterface/Types/BarredArea.msg"
+        "msg/DetectionInterface/Types/FloorSign.msg"
+        "msg/DetectionInterface/Types/IntersectionPoint.msg"
+        "msg/DetectionInterface/Types/Obstacle.msg"
+        "msg/DetectionInterface/Types/ParkSpot.msg"
+        "msg/DetectionInterface/Types/Pedestrian.msg"
+        "msg/DetectionInterface/Types/PedIsle.msg"
+        "msg/DetectionInterface/Types/Sign.msg"
         DEPENDENCIES geometry_msgs
         )
 
