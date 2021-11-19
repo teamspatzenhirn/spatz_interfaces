@@ -1,21 +1,21 @@
 std_msgs/Header header
 
 # IMU
-geometry_msgs/Point angularVelocity # Unit: rad/s
+geometry_msgs/Point angular_velocity # Unit: rad/s
 geometry_msgs/Point acceleration # Unit: m/s²
 
 # Steering angle sensors (Unit: rad)
-float64 steeringAngle_frontLeft
-float64 steeringAngle_frontRight
-float64 steeringAngle_rearLeft
-float64 steeringAngle_rearRight
+float64 steering_angle_front_left
+float64 steering_angle_front_right
+float64 steering_angle_rear_left
+float64 steering_angle_rear_right
 
 # Velocity of each wheel (Unit: m/s)
-float64 wheelVelocity_frontLeft
-float64 wheelVelocity_frontRight
-float64 wheelVelocity_rearLeft
-float64 wheelVelocity_rearRight
+float64 wheel_velocity_front_left
+float64 wheel_velocity_front_right
+float64 wheel_velocity_rear_left
+float64 wheel_velocity_rear_right
 
 # Laser sensors
-double frontLaserDistance # Unit: m
-bool rearLaser # True if object is close
+float64 front_laser_distance # Unit: m
+bool rear_laser # True if object is close

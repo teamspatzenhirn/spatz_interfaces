@@ -22,6 +22,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
         "msg/Lights.msg"
         "msg/RCMode.msg"
         "msg/Spatz.msg"
+        "msg/Spatz11SensorData.msg"
         "msg/Trajectory.msg"
         "msg/TrajectoryState.msg"
         "msg/DetectionInterface/Interfaces/Classification.msg"
