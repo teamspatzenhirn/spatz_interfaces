@@ -11,6 +11,9 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(geometry_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
+        "msg/spatz11/BrakeLightCommand.msg"
+        "msg/spatz11/IndicatorCommand.msg"
+        "msg/spatz11/Spatz11SensorData.msg"
         "msg/BirdEyeParam.msg"
         "msg/ControlSetpoint.msg"
         "msg/ExtrinsicCalib.msg"
@@ -22,7 +25,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
         "msg/Lights.msg"
         "msg/RCMode.msg"
         "msg/Spatz.msg"
-        "msg/Spatz11SensorData.msg"
         "msg/Trajectory.msg"
         "msg/TrajectoryState.msg"
         "msg/DetectionInterface/Interfaces/Classification.msg"
