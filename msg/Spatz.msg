@@ -8,7 +8,8 @@ float64 d_psi # angular velocity
 
 # Sensors
 float64 laser_front
-float64 steer_angle # estimated steering angle of the front axle in rad (left is positive)
+float64 steer_angle_front # estimated steering angle of the front axle in rad (left is positive)
+float64 steer_angle_rear # estimated steering angle of the rear axle in rad (left is positive)
 
 bool light_switch_rear
 
