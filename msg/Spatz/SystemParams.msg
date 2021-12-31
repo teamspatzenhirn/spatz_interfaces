@@ -1,16 +1,16 @@
-float64 WIDTH
-float64 LENGTH
-float64 ORIGIN_X
-float64 AXESDISTANCE
-float64 MASS
+float64 width
+float64 length
+float64 origin_x
+float64 axes_distance
+float64 mass
 
-float64 INERTIA
-float64 MAX_STEERING_ANGLE
-float64 AXESMOMENTRATIO
+float64 inertia
+float64 max_steering_angle
+float64 axes_moment_ratio
 
 
-float64 DIST_COG_TO_FRONT_AXLE
-float64 DIST_COG_TO_REAR_AXLE
-float64 DIST_CAM_ORIGIN_X
+float64 dist_cog_to_front_axle
+float64 dist_cog_to_rear_axle
+float64 dist_cam_origin_x
 
-float64 M
+float64 m
