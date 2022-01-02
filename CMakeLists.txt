@@ -25,6 +25,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
         "msg/DetectionInterface/Types/PedIsle.msg"
         "msg/DetectionInterface/Types/Pedestrian.msg"
         "msg/DetectionInterface/Types/Sign.msg"
+        "msg/DetectionInterface/DetectionInterfaceList.msg"
         "msg/ExtrinsicCalib.msg"
         "msg/HardwareIn.msg"
         "msg/ILQRTrajectory/ILQRTrajectory.msg"
