@@ -14,3 +14,5 @@ float64 steer_angle_rear # estimated steering angle of the rear axle in rad (lef
 bool light_switch_rear
 
 float64 integrated_distance
+
+SystemParams system_params
