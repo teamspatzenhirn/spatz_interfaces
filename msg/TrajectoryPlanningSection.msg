@@ -8,7 +8,7 @@ int8 MODE_STAY_ON_RIGHT_LANE=3
 int8 lane_mode 3
 
 # Maximum velocity in the current section
-float64 velocity_max
+float64 velocity_max # [m/s], component in current driving direction
 
 # Target position in the current section
 geometry_msgs/Point target_position
