@@ -1,7 +1,8 @@
 float64 width
 float64 length
 float64 origin_x
-float64 axes_distance
+float64 track_length
+float64 track_width
 float64 mass
 
 float64 inertia
