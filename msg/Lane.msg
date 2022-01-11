@@ -17,3 +17,5 @@ bool sharp_turn_signs_ahead false
 bool ramp_ahead false
 
 int32[] classification # Die pro-punkt klassifikation falls die einer haben will
+
+float64 lane_width
