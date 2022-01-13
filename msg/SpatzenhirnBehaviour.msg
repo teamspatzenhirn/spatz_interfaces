@@ -1,0 +1,11 @@
+int8 DRIVE=0
+int8 OVERTAKE=1
+int8 STOP=2
+int8 PARK=3
+int8 CHEAT_PARK=4
+int8 TURN=5
+int8 TURN_RIGHT=6
+int8 TURN_LEFT=7
+int8 STANDING=8
+
+int8 current_action 8
