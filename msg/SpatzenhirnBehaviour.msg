@@ -8,4 +8,4 @@ int8 TURN_RIGHT=6
 int8 TURN_LEFT=7
 int8 STANDING=8
 
-int8 current_action 8
+int8 current_action
