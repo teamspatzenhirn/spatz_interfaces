@@ -13,6 +13,7 @@ find_package(geometry_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
         "msg/BirdEyeParam.msg"
         "msg/ControlSetpoint.msg"
+        "msg/ControlError.msg"
         "msg/DetectionInterface/DetectionInterfaceList.msg"
         "msg/DetectionInterface/Interfaces/Classification.msg"
         "msg/DetectionInterface/Interfaces/Detection.msg"
