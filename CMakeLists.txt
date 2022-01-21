@@ -22,6 +22,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
         "msg/AbstractionInterface/Types/AbstractionSign.msg"
         "msg/BirdEyeParam.msg"
         "msg/ControlSetpoint.msg"
+        "msg/ControlStatus.msg"
         "msg/DetectionInterface/DetectionInterfaceList.msg"
         "msg/DetectionInterface/Types/BarredArea.msg"
         "msg/DetectionInterface/Types/FloorSign.msg"
