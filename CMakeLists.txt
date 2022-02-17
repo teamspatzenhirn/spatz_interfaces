@@ -60,6 +60,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
         "msg/spatz11/FourWheelDouble.msg"
         "msg/spatz11/IndicatorCommand.msg"
         "msg/spatz11/Spatz11SensorData.msg"
+        "msg/HirnSection.msg"
         DEPENDENCIES geometry_msgs
         )
 
