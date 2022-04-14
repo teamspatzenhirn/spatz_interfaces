@@ -13,6 +13,8 @@ float64 velocity_max # [m/s], component in current driving direction
 # Target position in the current section
 geometry_msgs/Point target_position
 
+bool requires_precise_maneuvers
+
 # Optional target velocity
 bool target_velocity_set false
 float64 target_velocity # [m/s]
