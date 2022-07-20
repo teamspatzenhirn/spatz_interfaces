@@ -38,6 +38,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
         "msg/ILQRTrajectory/ILQRTrajectory.msg"
         "msg/ILQRTrajectory/ILQRTrajectoryControl.msg"
         "msg/ILQRTrajectory/ILQRTrajectoryControlGain.msg"
+        "msg/ILQRTrajectory/ILQRTrajectoryCovariance.msg"
         "msg/ILQRTrajectory/ILQRTrajectoryState.msg"
         "msg/Interfaces/Classification.msg"
         "msg/Interfaces/Detection.msg"
