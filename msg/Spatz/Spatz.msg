@@ -1,6 +1,5 @@
 std_msgs/Header header
 
-float64 t # Timestamp provided by simulator/hardware
 geometry_msgs/Point pose # x, y, psi (yaw angle in rad)
 geometry_msgs/Point velocity # x, y velocity in global coordinates
 geometry_msgs/Point acceleration # acceleration (in vehicle coordinates) without gravity
