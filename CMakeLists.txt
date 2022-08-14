@@ -44,6 +44,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
         "msg/Interfaces/Detection.msg"
         "msg/Interfaces/Expansion.msg"
         "msg/Interfaces/Locatable.msg"
+        "msg/Interfaces/LocatableWithCovariance.msg"
         "msg/IntersectionOut.msg"
         "msg/Lane.msg"
         "msg/LaneOption.msg"
