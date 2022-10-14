@@ -4,7 +4,7 @@ int8 LEFT=1
 int8 RIGHT=2
 int8 BESIDE_LANE=3
 
-Locatable locatable
+LocatableWithCovariance locatable_with_covariance
 Expansion expansion
 geometry_msgs/Vector3 vel   # velocity of the obstacle
 int8 lane_side
