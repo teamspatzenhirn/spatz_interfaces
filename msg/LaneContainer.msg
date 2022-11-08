@@ -1,4 +1,4 @@
-# describes the lane representation within the environment module
+# Lane enriched with information from within the environment module
 
 std_msgs/Header header
 
