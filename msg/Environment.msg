@@ -3,6 +3,6 @@ int8 OBSTACLE_EVASION=1
 
 int8 mode # legal values: FREE_DRIVE, OBSTACLE_EVASION
 
-Lane lane
+LaneContainer lane
 Spatz spatz
 AbstractionInterfaceList abstractions
