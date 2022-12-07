@@ -48,6 +48,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
         "msg/IntersectionOut.msg"
         "msg/Lane.msg"
         "msg/LaneContainer.msg"
+        "msg/LaneFeedback.msg"
         "msg/LaneOption.msg"
         "msg/LanePoint.msg"
         "msg/LaneContainerPoint.msg"
