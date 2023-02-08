@@ -4,6 +4,7 @@
 int8 MODE_NO_LANE=1
 int8 MODE_STAY_ON_LANE=2
 int8 MODE_STAY_ON_RIGHT_LANE=3
+int8 MODE_STAY_ON_LEFT_LANE=4
 
 # driving mode (abbreviated as 'dm')
 int8 DM_NORMAL=1
