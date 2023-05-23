@@ -9,6 +9,8 @@ endif ()
 find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(builtin_interfaces REQUIRED)
+find_package(std_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
         "msg/AbstractionInterface/AbstractionInterfaceList.msg"
@@ -65,7 +67,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
         "msg/spatz11/FourWheelDouble.msg"
         "msg/spatz11/IndicatorCommand.msg"
         "msg/spatz11/Spatz11SensorData.msg"
-        DEPENDENCIES geometry_msgs
+        DEPENDENCIES
+        geometry_msgs
+        builtin_interfaces
+        std_msgs
         )
 
 ament_package()
